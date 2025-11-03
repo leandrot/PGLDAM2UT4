@@ -1,0 +1,137 @@
+.categoria-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0 15px 0;
+    background-color: #f4dbb6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categoria-header h2 {
+    margin: 0;
+    flex-grow: 1;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.categoria-header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.categoria-edicion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0 15px 0;
+}
+
+.categoria-edicion input[type="text"] {
+    flex-grow: 1;
+    padding: 10px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.categoria-edicion input[type="text"]:focus {
+    outline: none;
+    border-color: #8b6f47;
+}
+
+.categoria-edicion .btn-guardar,
+.categoria-edicion .btn-cancelar {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+}
+
+.categoria-edicion .btn-guardar {
+    background-color: #4CAF50;
+}
+
+.categoria-edicion .btn-guardar:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.categoria-edicion .btn-cancelar {
+    background-color: #f44336;
+}
+
+.categoria-edicion .btn-cancelar:hover {
+    background-color: #da190b;
+    transform: scale(1.05);
+}
+
+.categoria-edicion button img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.categoria-acciones {
+    display: inline-flex;
+    gap: 8px;
+}
+
+.categoria-acciones .btn-icon {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    height: 36px;
+}
+
+.categoria-acciones .btn-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.categoria-acciones .btn-editar {
+    background-color: #f5f5f5;
+}
+
+.categoria-acciones .btn-editar:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+
+.categoria-acciones .btn-editar img {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(12%) saturate(1045%) hue-rotate(357deg) brightness(91%) contrast(85%);
+}
+
+.categoria-acciones .btn-eliminar {
+    background-color: #ffebee;
+}
+
+.categoria-acciones .btn-eliminar:hover {
+    background-color: #ffcdd2;
+    transform: scale(1.1);
+}
+
+.categoria-acciones .btn-eliminar img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(89%) saturate(3577%) hue-rotate(351deg) brightness(92%) contrast(96%);
+}

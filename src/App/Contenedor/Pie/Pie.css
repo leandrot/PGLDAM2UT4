@@ -1,0 +1,21 @@
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 3px solid darkred;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+address {
+    margin-top: 5px;
+}

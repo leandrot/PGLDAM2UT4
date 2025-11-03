@@ -1,0 +1,153 @@
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #ddc29f;
+    margin: 8px 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.producto-edicion {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+}
+
+.producto-edicion input[type="text"],
+.producto-edicion input[type="number"] {
+    padding: 8px 10px;
+    border: 0px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.producto-edicion input[type="text"] {
+    flex-grow: 1;
+}
+
+.producto-edicion input[type="number"] {
+    width: 80px;
+}
+
+.producto-edicion input:focus {
+    outline: none;
+    border-color: #8b6f47;
+}
+
+.producto-edicion .btn-guardar,
+.producto-edicion .btn-cancelar {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+}
+
+.producto-edicion .btn-guardar {
+    background-color: #4CAF50;
+}
+
+.producto-edicion .btn-guardar:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.producto-edicion .btn-cancelar {
+    background-color: #f44336;
+}
+
+.producto-edicion .btn-cancelar:hover {
+    background-color: #da190b;
+    transform: scale(1.05);
+}
+
+.producto-edicion button img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.producto-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.producto-nombre {
+    font-weight: 500;
+    color: #333;
+}
+
+.producto-precio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: #8b6f47;
+}
+
+.producto-acciones {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.btn-icon {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    background-color: transparent;
+}
+
+.btn-icon img {
+    width: 18px;
+    height: 18px;
+}
+
+.btn-editar {
+    background-color: #f5f5f5;
+    margin-left: 10px;
+}
+
+.btn-editar:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+
+.btn-editar img {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(12%) saturate(1045%) hue-rotate(357deg) brightness(91%) contrast(85%);
+}
+
+.btn-eliminar {
+    background-color: #ffebee;
+}
+
+.btn-eliminar:hover {
+    background-color: #ffcdd2;
+    transform: scale(1.1);
+}
+
+.btn-eliminar img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(89%) saturate(3577%) hue-rotate(351deg) brightness(92%) contrast(96%);
+}

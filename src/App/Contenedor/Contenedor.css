@@ -1,0 +1,31 @@
+.cambiar-edicion {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: #8b6f47;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cambiar-edicion:hover {
+    background-color: #6d5638;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cambiar-edicion:active {
+    transform: translateY(0);
+}
+
+.seccion-titulo {
+    margin: 25px 0 10px 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}

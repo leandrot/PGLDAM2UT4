@@ -1,0 +1,63 @@
+.crear-categoria {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.crear-categoria h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.crear-categoria form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.crear-categoria input[type="text"],
+.crear-categoria select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.crear-categoria input[type="text"]:focus,
+.crear-categoria select:focus {
+    outline: none;
+    border-color: #8b6f47;
+}
+
+.crear-categoria button[type="submit"] {
+    background-color: #8b6f47;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.crear-categoria button[type="submit"]:hover {
+    background-color: #6d5638;
+}
+
+.crear-categoria button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 30px 0;
+}

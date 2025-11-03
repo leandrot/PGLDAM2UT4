@@ -1,0 +1,47 @@
+.aviso {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    animation: slideDown 0.3s ease-out, fadeOut 0.3s ease-in 3.7s;
+    min-width: 300px;
+    text-align: center;
+}
+
+.aviso-error {
+    background-color: #dc3545;
+}
+
+.aviso-info {
+    background-color: #0dcaf0;
+}
+
+.aviso-success {
+    background-color: #198754;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
